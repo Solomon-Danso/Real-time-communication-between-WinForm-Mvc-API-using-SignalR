@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Desktop\\SignalWinApi\\FlexiAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCB3210-C705-407A-B8B1-BC15F3BE56F9}|FlexiAPI\\FlexiAPI.csproj|z:\\desktop\\signalwinapi\\flexiapi\\flexiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCB3210-C705-407A-B8B1-BC15F3BE56F9}|FlexiAPI\\FlexiAPI.csproj|solutionrelative:flexiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCB3210-C705-407A-B8B1-BC15F3BE56F9}|FlexiAPI\\FlexiAPI.csproj|z:\\desktop\\signalwinapi\\flexiapi\\flexiapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCB3210-C705-407A-B8B1-BC15F3BE56F9}|FlexiAPI\\FlexiAPI.csproj|solutionrelative:flexiapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "Z:\\Desktop\\SignalWinApi\\FlexiAPI\\FlexiAPI\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "FlexiAPI\\Hubs\\ChatHub.cs",
+              "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiAPI\\FlexiAPI\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "FlexiAPI\\Hubs\\ChatHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T14:37:59.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\Desktop\\SignalWinApi\\FlexiAPI\\FlexiAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FlexiAPI\\Program.cs",
+              "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiAPI\\FlexiAPI\\Program.cs",
+              "RelativeToolTip": "FlexiAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T14:28:16.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
