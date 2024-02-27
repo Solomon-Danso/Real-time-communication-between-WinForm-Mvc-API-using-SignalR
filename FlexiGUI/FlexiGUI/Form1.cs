@@ -83,14 +83,30 @@ namespace FlexiGUI
         }
 
         private async void btnSend_Click(object sender, EventArgs e)
-        {
-            string user = txtUser.Text;
-            string message = txtMessage.Text;
-            string selectedConnectionId = connectionIdComboBox.SelectedItem.ToString(); // Get the selected connection ID from the ComboBox
+{
+    try
+    {
+        string user = txtUser.Text;
+        string message = txtMessage.Text;
+        string selectedConnectionId = connectionIdComboBox.SelectedItem?.ToString(); // Get the selected connection ID from the ComboBox
 
-            // Call server method with the selected connection ID
-            await _connection.SendAsync("SendMessageToConnectionId", selectedConnectionId, user, message);
+        // Check if a connection ID is selected
+        if (string.IsNullOrWhiteSpace(selectedConnectionId))
+        {
+            MessageBox.Show("Select a connection Id");
+            return;
         }
+
+        // Call server method with the selected connection ID
+        await _connection.SendAsync("SendMessageToConnectionId", selectedConnectionId, user, message);
+    }
+    catch (Exception ex)
+    {
+        // Handle any exceptions here
+        MessageBox.Show($"An error occurred: {ex.Message}");
+    }
+}
+
 
 
 
