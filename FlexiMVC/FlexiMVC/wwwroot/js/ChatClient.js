@@ -9,9 +9,12 @@ connectionUserCount.on("ReceiveMessage", (user, message) => {
     msg.innerText = message.toString();
 
 
-}
+})
 
-)
+
+
+
+
 
 
 function newWindowLoadedOnClient() {

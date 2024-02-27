@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|z:\\desktop\\signalwinapi\\flexigui\\flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|Z:\\Desktop\\SignalWinApi\\FlexiGUI\\flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|solutionrelative:flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|Z:\\Desktop\\SignalWinApi\\FlexiGUI\\flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|z:\\desktop\\signalwinapi\\flexigui\\flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA790E-D252-4130-9297-75D9DCB86D9C}|FlexiGUI\\FlexiGUI.csproj|solutionrelative:flexigui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "FlexiGUI\\Form1.Designer.cs",
               "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\FlexiGUI\\Form1.Designer.cs",
               "RelativeToolTip": "FlexiGUI\\Form1.Designer.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T14:00:13.738Z"
+              "WhenOpened": "2024-02-26T14:00:13.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "FlexiGUI\\Form1.cs",
               "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\FlexiGUI\\Form1.cs*",
               "RelativeToolTip": "FlexiGUI\\Form1.cs*",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACQAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T13:59:18.955Z",
               "EditorCaption": ""
@@ -55,10 +56,11 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\FlexiGUI\\Form1.cs",
               "RelativeDocumentMoniker": "FlexiGUI\\Form1.cs",
-              "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\FlexiGUI\\Form1.cs [Design]",
-              "RelativeToolTip": "FlexiGUI\\Form1.cs [Design]",
+              "ToolTip": "Z:\\Desktop\\SignalWinApi\\FlexiGUI\\FlexiGUI\\Form1.cs [Design]*",
+              "RelativeToolTip": "FlexiGUI\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T13:52:52.085Z"
+              "WhenOpened": "2024-02-26T13:52:52.085Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

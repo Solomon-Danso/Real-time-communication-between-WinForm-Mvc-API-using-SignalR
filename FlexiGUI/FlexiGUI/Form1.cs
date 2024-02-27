@@ -31,8 +31,18 @@ namespace FlexiGUI
             _connection.On<string, string>("ReceiveMessage", (user, message) =>
             {
                 // Handle incoming message
-                MessageBox.Show($"Received message from {user}: {message}");
+                MessageBox.Show($" Sender =>: {user} \n\n Message =>: {message}");
             });
+
+
+            _connection.On<List<string>>("ConnectionList", (connectionIds) =>
+            {
+                UpdateConnectionList(connectionIds);
+            });
+
+
+
+
 
 
             try
@@ -46,6 +56,27 @@ namespace FlexiGUI
 
         }
 
+        private void UpdateConnectionList(List<string> connectionIds)
+        {
+            if (connectionIdComboBox.InvokeRequired)
+            {
+                connectionIdComboBox.Invoke(new Action<List<string>>(UpdateConnectionList), new object[] { connectionIds });
+                return;
+            }
+
+            // Clear existing items
+            connectionIdComboBox.Items.Clear();
+
+            // Add new items
+            foreach (var connectionId in connectionIds)
+            {
+                connectionIdComboBox.Items.Add(connectionId);
+            }
+        }
+
+
+
+
         private void txtUser_TextChanged(object sender, EventArgs e)
         {
 
@@ -53,14 +84,15 @@ namespace FlexiGUI
 
         private async void btnSend_Click(object sender, EventArgs e)
         {
-
             string user = txtUser.Text;
             string message = txtMessage.Text;
+            string selectedConnectionId = connectionIdComboBox.SelectedItem.ToString(); // Get the selected connection ID from the ComboBox
 
-            // Call server method
-            await _connection.SendAsync("SendMessageMainFunction", user, message);
-
-
+            // Call server method with the selected connection ID
+            await _connection.SendAsync("SendMessageToConnectionId", selectedConnectionId, user, message);
         }
+
+
+
     }
 }

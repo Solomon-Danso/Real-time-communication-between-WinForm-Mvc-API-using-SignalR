@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.connectionIdComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // message
@@ -99,11 +101,30 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Connecting WinForms To WebAPI By Solomon Danso ";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(73, 842);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(264, 25);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "The List Of Connection ID ";
+            // 
+            // connectionIdComboBox
+            // 
+            this.connectionIdComboBox.FormattingEnabled = true;
+            this.connectionIdComboBox.Location = new System.Drawing.Point(78, 898);
+            this.connectionIdComboBox.Name = "connectionIdComboBox";
+            this.connectionIdComboBox.Size = new System.Drawing.Size(621, 33);
+            this.connectionIdComboBox.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 848);
+            this.ClientSize = new System.Drawing.Size(800, 1180);
+            this.Controls.Add(this.connectionIdComboBox);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.label2);
@@ -129,6 +150,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox connectionIdComboBox;
     }
 }
 
